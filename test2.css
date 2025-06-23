@@ -537,5 +537,6 @@ form textarea {
   .footer-icons img:hover {
     transform: translateY(-4px);
   }
+  #submit{margin: 0px;}
 }
 

@@ -4,11 +4,9 @@
     box-sizing: border-box;
 
     text-decoration: none;
-    list-style: none;
-     box-sizing: border-box;
+    list-style: none; box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;margin: 0px;
     padding: 0px;
     text-decoration: none;
     outline: none;
@@ -18,7 +16,7 @@
     border-image: initial; 
 }
 body{ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));}
-/* nav */
+
 .nav {
     position: sticky;
     top: 0;
@@ -39,18 +37,15 @@ body{ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 
 }
 .header {
     position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 35px 12%;
+    top: 0; left: 0;
+    width: 100%; padding: 35px 12%;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: space-between;
-    z-index: 100;
-    height: 80px;
-    align-items: center;
+    display: flex;justify-content: space-between;
+    z-index: 100;height: 80px;align-items: center;
 }
+
+
 
 .logo {
     font-size: 25px;
@@ -77,7 +72,7 @@ body{ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 
    
     transform: scale(1.25);transition: ease 1s;
 }
-/* home */
+
 
 
 
@@ -112,8 +107,7 @@ box-shadow: 0 0 25px,
 }
 
 #para {
-  font-size: 20px;
-  font-weight: 450;
+  font-size: 20px;font-weight: 450;
   line-height: 1.8;
   margin-top: 20px;
 }
@@ -122,11 +116,9 @@ box-shadow: 0 0 25px,
   color: orangered;
 }
 
-/* skills */
 .skills-heading {
   font-size: 60px;
-  text-align: center;
-  color: white;
+  text-align: center;color: white;
   margin-bottom: 60px;
 }
 
@@ -142,11 +134,9 @@ box-shadow: 0 0 25px,
   width: 300px;
   border-radius: 10px;
   background-color: rgb(181, 255, 20);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.8s ease;
+  display: flex;flex-direction: column;
+  align-items: center;justify-content: center;
+ transition: transform 0.8s ease;
 }
 
 .skill-card:hover {
@@ -170,16 +160,16 @@ box-shadow: 0 0 25px,
 }
 
 .skill-btn:hover {
-  background-color: orangered;
+  background-color: orangered;color: white;
 }
 .project-link{padding-top: 20px;}
-/* projects */
+
 .project-link {
   color: grey;
   font-size: 15px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 20px; /* ← This pushes it down */
+  margin-top: 20px; 
 }
 
 .projects-title {
@@ -202,11 +192,9 @@ box-shadow: 0 0 25px,
   background-color: white;
   width: 340px;
   padding: 30px 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   transition: transform 0.5s ease, background 0.5s ease;
-  text-align: center;
-  color: black;
+  text-align: center;color: black;
 }
 
 .project-card p{font: lighter;color: grey;margin-top: 10px;}
@@ -217,15 +205,13 @@ box-shadow: 0 0 25px,
 }
 
 .icon-circle {
-  height: 70px;
-  width: 70px;
+  height: 70px;width: 70px;
   background-color: rgb(193, 187, 187);
-  border-radius: 50%;
-  margin: 0 auto 20px;}
+  border-radius: 50%;margin: 0 auto 20px;}
 
 
 
-/* Main Contact Section Container */
+
 .contact-container {
   display: flex;
   flex-wrap: wrap;
@@ -234,7 +220,6 @@ box-shadow: 0 0 25px,
   padding: 40px 20px;
 }
 
-/* Heading & Subheading */
 .contact-heading {
   font-size: 60px;
   text-align: center;
@@ -250,7 +235,7 @@ box-shadow: 0 0 25px,
   font-weight: 400;
 }
 
-/* Left side: Map + info */
+
 .map-info {
   flex: 1;
   min-width: 320px;
@@ -265,8 +250,7 @@ box-shadow: 0 0 25px,
 }
 
 .contact-info {
-  margin-top: 20px;
-  font-size: 16px;
+  margin-top: 20px;font-size: 16px;
   line-height: 1.6;
 }
 
@@ -274,11 +258,10 @@ box-shadow: 0 0 25px,
   margin: 10px 0;
 }
 
-/* Right side: Form */
+
 .form {
   flex: 1;
-  min-width: 320px;
-  max-width: 500px;
+  min-width: 320px;max-width: 500px;
 }
 
 form {
@@ -294,8 +277,7 @@ form label {
 
 form input,
 form textarea {
-  padding: 12px;
-  border-radius: 6px;
+  padding: 12px;border-radius: 6px;
   border: none;
   font-size: 16px;
 }
@@ -309,9 +291,7 @@ form textarea {
   color: black;
   border-radius: 6px;
   padding: 15px 40px;
-  font-size: 18px;
-  letter-spacing: 1px;
-  border: none;
+  font-size: 18px;letter-spacing: 1px;border: none;
   cursor: pointer;
   width: fit-content;
 }
@@ -321,11 +301,10 @@ form textarea {
   color: white;
 }
 
-/* Footer */
+
 .footer {
-  color: white;
-  text-align: center;
-  padding: 30px 20px;
+  color: white;text-align: center;
+  padding: 20px 20px;
  
   margin-top: 60px;
 }
@@ -343,24 +322,24 @@ form textarea {
 
 .footer-icons img {
   height: 24px;
-  width: 24px;
-  transition: transform 0.3s ease-in-out;
+  width: 24px;transition: transform 0.5s ease-in-out;
+
 }
 
 .footer-icons img:hover {
   transform: translateY(-5px);
+  transition: ease 0.7s;
 }
 .contact-headings {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
 }
-/* Mobile Responsive CSS Enhancements - Beautified Look */
+
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 0 15px;
-    overflow-x: hidden;
+    padding: 0 15px;overflow-x: hidden;
     background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
   }
 
@@ -374,13 +353,10 @@ form textarea {
 
   .navbar {
     display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 10px;
+    flex-direction: column; align-items: center;
+    width: 100%; margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.05);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 10px; border-radius: 10px;
   }
 
   .navbar a {
@@ -388,10 +364,8 @@ form textarea {
     font-size: 18px;
     font-weight: 500;
     color: white;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    border-radius: 6px;
+    width: 100%; text-align: center;
+    padding: 10px;border-radius: 6px;
     transition: background 0.3s;
   }
 
@@ -406,16 +380,14 @@ form textarea {
   }
 
   .imgbox {
-    margin-top: 30px;
-    display: flex;
+    margin-top: 30px;display: flex;
     justify-content: center;
   }
 
   .img {
     width: 280px !important;
     height: 280px !important;
-    border: 5px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.2);box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
   }
 
   .homee h1,
@@ -459,7 +431,7 @@ form textarea {
   .skill-card,
   .project-card {
     width: 95% !important;
-    background: linear-gradient(135deg, #ff4e50, #f9d423);
+    
     color: black;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
@@ -474,7 +446,7 @@ form textarea {
   }
 
   .project-card:hover {
-    background: linear-gradient(to bottom right, #f83600, #f9d423);
+    background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(9, 0, 44));
     color: white;
   }
 
@@ -514,7 +486,7 @@ form textarea {
   }
 
   .footer {
-    background-color: rgba(255, 255, 255, 0.05);
+  
     padding: 20px 10px;
     font-size: 14px;
     color: white;

@@ -73,13 +73,9 @@ title{font-family: 'Playfair Display', serif;}
 .navbar a:hover,
 .navbar a.active {
     color: rgb(187, 22, 121);
-    /* border-bottom: 3px solid  rgb(212, 214, 219);} */
-}
-/* .logo:hover {
-    color: rgb(133, 32, 216);
    
-    transform: scale(1.25);transition: ease 1s;
-} */
+}
+
 .navbar a::after{
 content: '';
 width: 0%;
@@ -358,6 +354,17 @@ form textarea {
 #abcd img:hover{  transform: translateY(-5px);
   transition: ease 0.7s;}
 #abcd img{margin-left: 15px;}
+ #adhil {
+      display: inline-block;
+      transition: transform 0.5s;
+      transform-origin: center;
+    }
+
+#adhil:hover {
+      transform: rotatey(360deg);
+}
+
+
 
 
 @media screen and (max-width: 768px) {

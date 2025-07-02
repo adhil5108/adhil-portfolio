@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="cropped_circle_image.png">
+  
     <title>adhil-portfolio</title>
     <link rel="stylesheet" href="test2.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,9 +15,11 @@
   font-size: 28px;
   color: white;
   cursor: pointer;
+ margin-top: -100px;
+
 }
 
-/* Show hamburger and hide nav links on small screens */
+
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -169,25 +171,20 @@
 </head>
 <body>
 
+<header class="nav">
+  <img src="Screenshot 2025-07-02 134142.png" alt="" height="40px" width="40px" style="border-radius: 100px; margin-top: 0px;">
+  <a href="#" class="logo">ADHIL</a>
 
-    <header class="nav">
-      <img src="Screenshot 2025-07-02 134142.png" alt="" height="40px" width="40px" style="border-radius: 100px;margin-top: 0px;">
-        <a href="https://www.instagram.com/_adhi_lllhh?igsh=NzlpbHNreHMwMm9i&utm_source=qr" target="_blank" class="logo" >ADHIL</a>
+  <div class="hamburger">&#9776;</div>
 
-         <div class="hamburger" onclick="toggleNav()">&#9776;</div>
-       
-          <div class="navbar" style="display:flex; justify-content:  space-around;    margin: 0px 0px 0px 533px"> 
-             <a href="#" >HOME</a>
-            <a href="#about"  >AboutMe</a>
-            <a href="#skills"  >Skills</a>
-            <a href="#Projects"  >Projects</a>
-             <a href="#contact" >Contact</a>
-           </div>
-       
-
-       
-    </header>
-
+  <div class="navbar" id="navbar">
+    <a href="#">HOME</a>
+    <a href="#about">AboutMe</a>
+    <a href="#skills">Skills</a>
+    <a href="#Projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
 
 <section class="home" id="home" style="padding-top: 100px; display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
     <div class="homee">
